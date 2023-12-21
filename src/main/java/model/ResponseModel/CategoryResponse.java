@@ -9,9 +9,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+public class CategoryResponse {
+    public int id;
+    public String name;
 
-public class UserLoginResponse {
-    public int code;
-    public String type;
-    public String message;
 }

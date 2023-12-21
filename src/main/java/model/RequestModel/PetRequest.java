@@ -3,8 +3,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import model.ResponseModel.Category;
-import model.ResponseModel.Tag;
+import model.ResponseModel.*;
 
 import java.util.List;
 
@@ -15,7 +14,7 @@ import java.util.List;
 
 public class PetRequest {
     public int id;
-    public Category category;
+    public CategoryResponse category;
     public String name;
     public List<String> photoUrls;
     public List<TagRequest> tags;

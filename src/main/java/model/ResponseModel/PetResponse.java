@@ -18,7 +18,7 @@ import java.util.List;
 public class PetResponse {
     public int id;
     @JsonProperty("category")
-    public Category category;
+    public CategoryResponse category;
     @JsonProperty("name")
     public String name;
     @JsonProperty("photoUrls")

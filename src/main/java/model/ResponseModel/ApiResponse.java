@@ -10,8 +10,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 
-public class InventoryResponse {
-    public int teststa5;
-    public int string;
-    public int available;
+public class ApiResponse {
+    public int code;
+    public String type;
+    public String message;
 }

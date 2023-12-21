@@ -1,4 +1,4 @@
-package model.ResponseModel;
+package model.RequestModel;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 
-public class OrderResponse {
+public class OrderRequest {
     public Long id;
     public int petId;
     public int quantity;
